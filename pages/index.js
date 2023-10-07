@@ -63,18 +63,18 @@ function Chess(){
 
   return (
       <div className="center">
-          <label>Provide username here : </label>
-          <input type="text" name="name" id="username" onChange={get_stats}/> <br></br>
+          <label className="padding">Provide username here : </label>
+          <input  className= "padding" type="text" name="name" id="username" onChange={get_stats}/> <br></br>
 
           <img src={NOAVATAR} id="avatar_image"></img>  <br></br>
-          <p1 id="avatar_name">Name</p1> <br></br>
-          <p1 id="avatar_username">Username</p1> <br></br>
-          <p1 id="avatar_location">Location</p1> <br></br>
-          <p1 id="avatar_league">League</p1> <br></br>
-          <p1 id="avatar_rapid">Rapid Rating</p1> <br></br>
-          <p1 id="avatar_blitz">Blitz Rating</p1> <br></br>
-          <p1 id="avatar_bullet">Bullet Rating</p1> <br></br>
-          <p1 id="avatar_daily">Daily Rating</p1> <br></br>
+          <p1 id="avatar_name">Name :</p1> <br></br>
+          <p1 id="avatar_username">Username :</p1> <br></br>
+          <p1 id="avatar_location">Location :</p1> <br></br>
+          <p1 id="avatar_league">League :</p1> <br></br>
+          <p1 id="avatar_rapid">Best score in Rapid :</p1> <br></br>
+          <p1 id="avatar_blitz">Best score in Blitz :</p1> <br></br>
+          <p1 id="avatar_bullet">Best score in Bullet :</p1> <br></br>
+          <p1 id="avatar_daily">Best score in Daily :</p1> <br></br>
 
 
           
