@@ -62,7 +62,7 @@ async function get_stats(){
 function Chess(){
 
   return (
-      <div>
+      <div className="center">
           <label>Provide username here : </label>
           <input type="text" name="name" id="username" onChange={get_stats}/> <br></br>
 
